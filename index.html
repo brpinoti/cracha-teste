@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gerar Cracha - Página Inicial</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <main>
+   <p id="textoIndex">
+       Informe abaixo o UserName de suas redes sociais.
+   </p>
+   <table>
+    <tr>
+      <td>GitHub:</td>
+      <td><input type="text" id="textGithub"  size="30"> <br /></td>
+    </tr>
+    <tr>
+      <td>YouTube:</td>
+      <td><input type="text" id="textYoutube" size="30"> <br /></td>
+    </tr>
+    <tr>
+       <td>Facebook</td> 
+       <td><input type="text" id="textFacebook"  size="30"> <br /></td>
+    </tr>
+    <tr>
+        <td>Instagram</td> 
+        <td><input type="text" id="textInstagram"  size="30"> <br /></td>
+     </tr>
+     <tr>
+        <td>Tweeter</td> 
+        <td><input type="text" id="textTweeter"  size="30"> <br /></td>
+     </tr>
+   </table>
+  <a class="gerarCracha" type="submit" onclick="getGitHubProfileInfos()" href="cracha.html" target="_blank">Gerar Cracha</a>
+  <script src="main.js"></script>
+  </main> 
+</body>
+</html>
